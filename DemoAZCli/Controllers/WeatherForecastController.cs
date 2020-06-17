@@ -35,5 +35,11 @@ namespace DemoAZCli.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet("hii")]
+        public string GetHii()
+        {
+            return "Hii User";
+        }
     }
 }
